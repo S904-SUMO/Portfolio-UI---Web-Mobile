@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css"/>
+  <script src="Portfolio.js"></script>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="container hero-container">
+      <div class="text">
+          <div class="container">
+      <nav id="navbar">
+        <ul class="nav-links" id="menu">
+          <li><a href="Works.html">Works</a></li>
+          <li><a href="Blog.html">Blog</a></li>
+          <li><a href="Cont.html">Contact</a></li>
+          </ul>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+      </nav>
+    </div>
+        <h2>Hi, I am Mamta Kumari<br><span>Creative Technologist</span></h2>
+        <p> Here's a list of powerful, relevant words that define creative and tech-driven role: 
+          Design(UI/UX, interaction Design, Visual Design, Motion Graphics), 
+           Technology & Development(Font-End Development, Creative Coding), 
+           Tools & Platforms(Figma, Adobe XD/Photoshop/Illustrator, Vs Code, GitHub)
+        </p>
+        <button class="btn">Download Resume</button>
+      </div>
+      <div class="profile-img">
+        <img src="Profileimg.jpg" alt="Profile Photo">
+      </div>
+    </div>
+  </section>
+
+  <section class="posts">
+    <div class="container">
+      <h3>Recent posts</h3>
+      <a href="view.html" onclick="showMobile()">View all</a>
+      <div class="post-list">
+        <div class="post">
+          <h4>Making a design system from scratch</h4>
+          <small> 04 March 2024 &nbsp; | &nbsp; Design, Pattern</small>
+          <p>
+            Creating a Design System from Scratch is a strategic and creative process that combines visual design, UX principles, and front-end implementation to build a consistent, scalable, and maintainable design framework for digital products.
+          </p>
+        </div>
+        <div class="post">
+          <h4>Creating pixel perfect icons in Figma</h4>
+          <small> 15 April 2024 &nbsp; | &nbsp; Figma, Icon Design</small>
+          <p>
+            Creating pixel-perfect icons in Figma is an essential skill for designers aiming for sharp, crisp visuals—especially at small sizes (16px, 24px, 32px). 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+  
+<footer>
+    <div class="social-icons" id="socialicons">
+      <ul>
+      <li><p class = "sided"> <strong> <img src="facebook.jpg" alt="Profile Photo"></strong></p></li>
+     <li><p class = "sided"> <strong> <img src="instagram.jpg" alt="Profile Photo"></strong></p></li>
+      <li><p class = "sided"> <strong> <img src="twitter.jpg" alt="Profile Photo"></strong></p></li>
+      <li><p class = "sided"> <strong> <img src="linkedin.jpg" alt="Profile Photo"></strong></p></li>
+      </ul>
+    </div>
+    <p class="copyright">Copyright ©2020 All rights reserved</p>
+  </footer> 
+</body>
+</html>
